@@ -24,7 +24,7 @@ let
       });
 in
 {
-  options.regolith.trawl = {
+  options.config.nixos-dots = {
     enable = mkEnableOption "Add trawl and trawld.service";
   };
 
