@@ -77,13 +77,9 @@ source= $UserConfigs/WorkspaceRules.conf
 
 home.sessionVariables.GTK_THEME = "gruvbox-dark";
 
-home.packages = with pkgs;[
-# airshipper
-kitty
-solarc-gtk-theme
-wl-clipboard
-hyprlock
-];
+# home.packages = with pkgs;[
+
+# ];
 
   home.stateVersion = "23.11";
 
