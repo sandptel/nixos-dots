@@ -16,7 +16,7 @@
      {
 
 
-      nixosModules.nixos-dots = import ./nixos-dots.nix;
+      nixosModules.default = import ./nixos-dots.nix;
 
     #   homeConfigurations.${username} = home-manager.lib.homeManagerConfiguration {
     #     inherit pkgs;
