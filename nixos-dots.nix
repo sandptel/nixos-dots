@@ -3,7 +3,7 @@
 with lib;
 
 let
-    cfg = config.dots.configs;
+    cfg = config.nixos-dots;
       # Values you should modify
       username = "roronoa"; # $USER
       system = "x86-64-linux";  # x86_64-linux, aarch64-multiplatform, etc.
@@ -24,7 +24,7 @@ let
       });
 in
 {
-  options.config.dots.configs = {
+  options.nixos-dots = {
     enable = mkEnableOption "Add trawl and trawld.service";
   };
 
